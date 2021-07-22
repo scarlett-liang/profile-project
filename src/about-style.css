@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #f2c9c3;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -36,10 +36,7 @@ h3 {
   font-size: 28px;
   text-decoration: none;
 }
-.image {
-  max-width: 300px;
-  height: auto;
-}
+
 .mail:hover {
   text-decoration: underline;
 }
