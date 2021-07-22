@@ -3,7 +3,9 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
+body {
+  color: #212529;
+}
 h1 {
   font-size: 48px;
   margin: 0;
@@ -15,6 +17,7 @@ h2 {
 h3 {
   font-size: 24px;
   margin: 0;
+  opacity: 0.7;
 }
 
 .wrapper {

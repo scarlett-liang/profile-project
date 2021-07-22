@@ -4,38 +4,86 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="src/about-style.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /><link href="src/about-style.css" rel="stylesheet" />
     <title>About me</title>
   </head>
   <body>
-    <a href="index.html" class="back">Back to homepage</a>
-    <h1>About me</h1>
-    <h2>Digital Marketing Expert, from Shanghai now based in Frankfurt</h2>
-    <div class="intro">
-      <p>
-        I'm a bilingual enthusiastic professional With 5 years of experience in
-        FMCG beauty industry.
-        <br /><br />
-        I'm an expert in digital marketing and e-commerce, former talent in
-        L'ORÉAL GROUP and L'OCCITANE GROUP China office.
-        <br /><br />
-        I speak proficient English and intermediate French, mother tongue
-        Chinese.
-      </p>
-      <p>
-        I have relocated from China to Germany for family reasons. I'm excited
-        to list front end development into my skillset.
-        <br /><br />
-        My skillset include: B2C & D2C e-commerce operation, SEO SEM SMO, social
-        media marketing, performance marketing, front-end development, SQL
-        programming.
-        <br /><br />
-        Beside work, I am a huge animal lover and amateur nail artist.
-      </p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Scarlett Liang</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contactMe">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+    <h1 class="text-center">About me</h1>
+    <h2 class="text-center">Front end developer, from Shanghai now base in Frankfurt</h2>
+    <p class="text-center intro">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum blanditiis harum.
+    </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="img/weather-project-img.png"
+            alt="weather-project"
+            class="image img-fluid rounded p-2 shadow"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="img/basic-project-img.png"
+            alt="basic-project"
+            class="image img-fluid rounded p-2 shadow"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="img/yogurt-project-img.png"
+            alt="yogurt-project"
+            class="image img-fluid rounded p-2 shadow"
+          />
+        </div>
+        </div>
+      </div>
     </div>
-    <div id="contactMe">
-      <h3>📮 Contact me</h3>
+    <div id="contactMe" class="mt-5">
+      <h3 class="text-center">📮 Contact me</h3>
       <a href="mailto:scarlett@gmail.com" class="mail">scarlett@gmail.com</a>
     </div>
-  </body>
+    </div>
+  <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script></body>
 </html>
