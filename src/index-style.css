@@ -28,19 +28,36 @@ h3 {
   margin-top: 40px;
   justify-content: center;
 }
-.link a {
+
+.primary-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
   margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
 }
-.contact {
+.secondary-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.third-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
-.about {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+.image {
+  max-width: 300px;
 }
