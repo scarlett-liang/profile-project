@@ -6,6 +6,7 @@
 body {
   color: #212529;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 h1 {
   font-size: 48px;
@@ -61,19 +62,35 @@ h3 {
   text-decoration: none;
   text-transform: capitalize;
 }
+.primary-link:hover {
+  color: white;
+}
+.secondary-link:hover {
+  color: var(--primary-color);
+}
+.third-link:hover {
+  color: white;
+}
 @media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
   h2 {
-    font-size: 68px;
+    font-size: 40px;
+    line-height: 2;
   }
   h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .text-centered {
     text-align: center;
   }
   .link-centered {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
+  }
+  .font-size-16 {
+    font-size: 16px;
   }
   .font-size-24 {
     font-size: 24px;
